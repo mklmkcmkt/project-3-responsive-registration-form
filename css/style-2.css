@@ -1,0 +1,53 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 1.25;
+}
+
+header{
+    text-align: center;
+    font-size: 12px;
+    background-color: darkslategray;
+    color: white;
+    padding: 15px;
+    
+    
+    
+
+}
+main div {
+    text-align: center;
+    padding: 30px;
+    
+}
+ main div h2{
+    line-height: .95;
+}
+main div p{
+   color: lightslategrey;
+   margin-top: 15px;
+}
+
+hr {
+    border: 0;
+    border-top: 2px solid rgb(79, 79, 79);
+    border-bottom: 1px solid rgb(70, 70, 70);
+    height: 6px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+form {
+    margin: 0 auto;
+    max-width: 90%;
+    font-family: "Open Sans", sans-serif;
+    font-weight: weight;
+    font-style: normal;
+    padding: 10px;
+
+}
+form > fieldset> legend> label :nth-child(1){
+    background-color: pink;
+
+}

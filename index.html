@@ -16,6 +16,7 @@
         </header>
         <div>
             <h2>Sign up of our news later</h2>
+            <p>Get the latest news on how your code is doing right on you inbox</p>
                        
         </div>
         <form action=""> 
@@ -55,24 +56,28 @@
             </fieldset>
             <fieldset>                
 
-                <!-- h2.newsletter+p+(ul>label+input:checkbox*3)+(h3+ul>label+input:checkbox*2+p) -->
-                
-                <h2 class="news-letter">News Letter </h2>
-                <p> </p>
+                <!-- h2.newsletter+p+(ul>(label+input:checkbox)*3)+(h3+ul>(label+input:checkbox)*2+p) -->
+
+                <h2 class="newsletter">News Letter</h2>
+                <p>Select the news letter you would like to receive</p>
                 <ul>
-                    <label for="square-checkbox"></label>
+                    <label for="square-checkbox">HTML New</label>
                     <input type="checkbox" name="news-letter-type" id="square-checkbox">
+                    <label for="square-checkbox">CSS News</label>
                     <input type="checkbox" name="news-letter-type" id="square-checkbox">
+                    <label for="square-checkbox">Java Script News</label>
                     <input type="checkbox" name="news-letter-type" id="square-checkbox">
                 </ul>
                 <h3>News Letter Format</h3>
                 <ul>
-                    <!-- <label for="rounded-checkbox"></label> -->
+                    <label for="rounded-checkbox">HTML</label>
                     <input type="checkbox" name="news-letter-format" id="rounded-checkbox">
+                    <label for="rounded-checkbox">Plain Text</label>
                     <input type="checkbox" name="news-letter-format" id="rounded-checkbox">
                     <p></p>
-                </ul>
-                <label for="user-comment"></label>
+                </ul>                                      
+                
+                <label for="user-comment">Other topics you would like to hear about</label>
                 <textarea name="textarea" id="user-comment" cols="30" rows="10"></textarea>
 
                 <button type="submit"></button>
